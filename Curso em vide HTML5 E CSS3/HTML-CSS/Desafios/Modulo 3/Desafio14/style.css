@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+body{
+    background: url(pacote-d013/imagens/fundo-madeira.jpg) bottom center no-repeat fixed;
+    background-size: 100%;
+    
+   
+}
+
+
+
+
+div .imagem{
+    display: flex;
+    justify-content: center;
+    
+    padding-top:10p ;
+    padding-left:10%;
+    padding-right:1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-width: 0cm;
+}
+
+
+a{
+    display: block;
+}
+a >img{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+    
+}
+nav{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: flex-end;
+   margin-left: 1017px;
+   padding-left: 10px;
+}
