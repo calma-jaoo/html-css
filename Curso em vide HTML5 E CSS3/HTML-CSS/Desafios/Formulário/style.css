@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #520703;
+}
+
+main{
+    background-image:linear-gradient(to bottom,#cc13098c 75%, #cc13091a );
+    width: 500px;
+    height: 500px;
+    margin:50% auto 0  ;
+    display: flex;
+  
+
+}
+
+
+form{
+    background-color: #520703;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px; 
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 6px 14px #e11409;
+} 
+   
+   
+
+
+form h2{
+    text-align: center;
+    margin-top: 8%;
+    color: white;
+}
+
+div.email{
+    font-size: .8em;
+    color: #CC1409;
+    text-align:left;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+div.senha{
+    font-size: .8em;
+    color: #CC1409;
+    text-align:left;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+
+textarea, input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 90%;
+    box-shadow: none;
+    height: 2em;
+   
+    
+}
+
+textarea:focus, input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0 ;
+    height: 2em;
+    
+}
+
+
+
+a{
+    text-decoration:none;
+    color: #CC1409;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 7%;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 3px;
+    padding:10px;
+    letter-spacing: 5px;
+   
+
+}
+    
+
+
+.botao a:hover{
+    background-color: #CC1409;
+    color: white;
+    box-shadow:  1px 6px 100px #e11409;
+   
+    
+    
+}
+
+a:nth-child(1){
+   
+    background: linear-gradient(90deg, transparent, #CC1409 );
+    animation: buttonpp 1s linear infinite;
+}
+
+@keyframes buttonpp{
+    0%{
+        left: -100%;
+    }
+
+    50%, 100%{
+        left: 100%;
+    }
+
+}
+a:nth-child(2){
+
+   
+    background: linear-gradient(90deg, transparent, #CC1409 );
+    animation: buttonpp2 1s linear infinite;
+}
+@keyframes buttonpp2{
+    0%{
+        left: -100%;
+    }
+
+    50%, 100%{
+        left: 100%;
+    }
+
+}
+
+a :nth-child(3){
+   
+    background: linear-gradient(90deg, transparent, #CC1409 );
+    animation: buttonpp3 1s linear infinite;
+}
+@keyframes buttonpp3{
+    0%{
+        left: -100%;
+    }
+
+    50%, 100%{
+        left: 100%;
+    }
+
+}
+
+a:nth-child(4){
+   
+    background: linear-gradient(90deg, transparent, #CC1409 );
+    animation: buttonpp4 1s linear infinite;
+}
+@keyframes buttonpp4{
+    0%{
+        left: -100%;
+    }
+
+    50%, 100%{
+        left: 100%;
+    }
+
+}
