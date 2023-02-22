@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    
+    background-color: lightblue;
+
+}
+
+header{
+    background-color: gray;
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    position: absolute;
+    left: -4%;
+ 
+    
+   
+}
+
+li{
+    padding: 10px;
+    list-style-type: none;
+ 
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    
+
+}
+main{
+    margin-top: 100px;
+}
+
+
