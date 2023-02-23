@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width:600px) {
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body, html{
+    background-color: #5E2C81;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+
+main{
+   background: url(../imagens/background-form.webp);
+   background-position: center right;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: auto;
+   height: 450px;
+   width: 200px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.651);
+    
+    
+
+
+}
+
+section{
+    background-color: white;
+    margin-top: 100%;
+    height: 250px;
+    justify-content: center;
+    background-size: cover;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+}
+
+
+main h2{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+  
+
+}
+main p{
+    font-size: 0.67em;
+    text-align: left;
+    
+}
+
+.campotxt{
+    background-color: #a9f8f381;
+    border: 1px solid #5E2C81;
+    border-radius: 8px;
+    width: 80%;
+    padding: 6px;
+    width: 100%;
+
+   
+}
+
+
+
+#button{
+    width: 100%;
+    color: white;
+    background-color: #4EA29D;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #4EA29D;
+}
+
+#button2{
+    width: 100%;
+    color:#4EA29D;
+    background-color: #ffffff;
+    border: 1px solid #4EA29D;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+
+
+}
+
+#backtxt1{
+    background-color: #5E2C81;
+    border-radius: 10px;
+    text-align: right;
+    margin-top: 5px;
+    padding: 1px;
+    display: flex;
+    padding-left: 10px;
+  
+}
+
+
+#backtxt2{
+    background-color: #5E2C81;
+    border-radius: 10px;
+    text-align: right;
+    margin-top: 5px;
+    padding: 1px;
+    display: flex;
+    padding-left: 10px;
+    
+  
+}
+#person{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: right 1px;;
+ 
+
+    
+}
+#key{
+    color: white;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.campotxt:hover{
+    background-color: white;
+}
+input:focus{
+    background-color: #ffffff;
+}
+
+#button:hover{
+    background-color: #5E2C81;
+    color:white;
+
+}
+#button2:hover{
+    background-color: #5E2C81;
+    color: white;
+    
+}
+
+}
+    
+
+
+
+
+@media screen and (min-width:600px) and (max-width:768px){
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body, html{
+    background-color: #5E2C81;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+
+main{
+   background: url(../imagens/background-form.webp);
+   background-position: center right;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: auto;
+   height: 450px;
+   width: 200px;
+   border-radius: 15px;
+   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.651);
+    
+    
+
+
+}
+
+section{
+    background-color: white;
+    margin-top: 100%;
+    height: 250px;
+    justify-content: center;
+    background-size: cover;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+}
+
+
+main h2{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+  
+
+}
+main p{
+    font-size: 0.67em;
+    text-align: left;
+    
+}
+
+.campotxt{
+    background-color: #a9f8f381;
+    border: 1px solid #5E2C81;
+    border-radius: 8px;
+    width: 80%;
+    padding: 6px;
+    width: 100%;
+
+   
+}
+
+
+
+#button{
+    width: 100%;
+    color: white;
+    background-color: #4EA29D;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #4EA29D;
+}
+
+#button2{
+    width: 100%;
+    color:#4EA29D;
+    background-color: #ffffff;
+    border: 1px solid #4EA29D;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+
+
+}
+
+#backtxt1{
+    background-color: #5E2C81;
+    border-radius: 10px;
+    text-align: right;
+    margin-top: 5px;
+    padding: 1px;
+    display: flex;
+    padding-left: 10px;
+  
+}
+
+
+#backtxt2{
+    background-color: #5E2C81;
+    border-radius: 10px;
+    text-align: right;
+    margin-top: 5px;
+    padding: 1px;
+    display: flex;
+    padding-left: 10px;
+    
+  
+}
+#person{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: right 1px;;
+ 
+
+    
+}
+#key{
+    color: white;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.campotxt:hover{
+    background-color: white;
+}
+input:focus{
+    background-color: #ffffff;
+}
+
+#button:hover{
+    background-color: #5E2C81;
+    color:white;
+
+}
+#button2:hover{
+    background-color: #5E2C81;
+    color: white;
+    
+}
+
+}
